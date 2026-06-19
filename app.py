@@ -35,6 +35,7 @@ if not os.path.isdir(MODEL_PATH):
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
+model = model.to("cpu")
 model.eval()
 
 
@@ -86,7 +87,6 @@ demo = gr.Interface(
         ["Critique of Microsoft\n\nhttps://arxiv.org/abs/2502.19560\n\nThoughts?"],
         ["When will we have Quantum Computing for general purpose compute?\n\nWhat I mean is that we have some quantum computing already and available through the cloud in some cases. But those quantum computers are very specific purpose machines."],
     ],
-    allow_flagging="never",
 )
 
 if __name__ == "__main__":
