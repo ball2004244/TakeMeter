@@ -66,9 +66,10 @@ The post mainly shares an external announcement, paper, article, company update,
 
 The value is mostly in the linked content, not the poster's own argument.
 
-Example:
+Examples:
 ```text
 QC Hack 2021 | April 5-11 | Free | Yale x Stanford co-hosted
+QpiAI Achieves High-Speed Quantum Error Correction on Superconducting Systems
 ```
 
 ### `discussion`
@@ -77,9 +78,10 @@ The author has a claim, take, concern, prediction, or observation they want the 
 
 There is no single clean answer. The post is useful because people can disagree.
 
-Example:
+Examples:
 ```text
 When will SC qubits start to die off?
+What do you think of QuEra's 'Fault-tolerance in 2028' — is it a bold claim?
 ```
 
 ### `question`
@@ -88,9 +90,10 @@ The author is missing some understanding and wants an explanation.
 
 One informed person could answer it with a known concept, source, or standard explanation.
 
-Example:
+Examples:
 ```text
 Why don't we just perform another transform in the Fourier basis after QFT?
+I don't get generalized amplitude damping
 ```
 
 ---
@@ -167,7 +170,35 @@ The baseline is Groq zero-shot classification with:
 llama-3.3-70b-versatile
 ```
 
-The prompt gives the same three label definitions and asks the model to output only one label. This is a strong baseline because a 70B model already understands Reddit intent pretty well.
+Prompt used (system message, temperature 0):
+
+```text
+You are classifying posts from the r/QuantumComputing subreddit.
+Assign each post to exactly one of the following labels.
+
+news: The post shares an external announcement, paper, or industry development.
+The value comes from the linked content, not the poster's own argument or opinion.
+The poster may add a brief reaction, but no original reasoning is built.
+Example: "Microsoft's Majorana 2 Topological Quantum Computer"
+Example: "QpiAI Achieves High-Speed Quantum Error Correction on Superconducting Systems"
+
+discussion: The poster has a perspective, observation, or claim they want the community
+to debate. No single correct answer exists — the post is valuable because it invites
+expert opinions or analysis.
+Example: "When will SC qubits start to die off?"
+Example: "What do you think of QuEra's 'Fault-tolerance in 2028' — is it a bold claim?"
+
+question: The poster lacks understanding of something and wants an explanation.
+A single well-informed person could answer it correctly by citing a source, paper,
+or established concept.
+Example: "I don't get generalized amplitude damping"
+Example: "Why don't we just perform another transform in the Fourier basis after QFT?"
+
+Respond with ONLY the label name — nothing else.
+Valid responses: news, discussion, question
+```
+
+This is a strong baseline because a 70B model already understands Reddit intent well. Every test example was parseable (88/88), so no results were lost to unparseable responses.
 
 ---
 
@@ -220,7 +251,39 @@ Examples from the wrong predictions:
 | `When will we have Quantum Computing for general purpose compute?` | `discussion` | `question` | Question grammar, debate intent |
 | `Critique of Microsoft` | `discussion` | `news` | Link title, but asks for thoughts |
 
-The model learned the broad taxonomy, but it still struggles with intent when the title and body send mixed signals.
+The model learned the surface features of each class well — link-heavy titles map to `news`, "how/why/what is" phrasing maps to `question` — but it learned syntax rather than intent for `discussion`. A `discussion` post is defined by the author wanting debate, which is not always visible in the title. The model cannot yet distinguish "When will X?" (debate prompt) from "How does X work?" (explanation request). It resolves the ambiguity by falling back on grammatical cues, which is wrong roughly half the time for that class.
+
+The `discussion` label was the intended target of the classifier. The model captured two of the three labels well and partially missed the third — not because of data volume, but because `discussion` requires reading intent rather than structure.
+
+---
+
+## Error Pattern Analysis
+
+Of the 21 wrong predictions, 9 (43%) are `discussion` posts misclassified as something else — by far the single most concentrated failure mode.
+
+Two distinct sub-patterns account for all 9:
+
+**Pattern 1 — question syntax, debate intent (5 cases)**
+
+Posts framed grammatically as questions but asking for community predictions or opinions:
+
+- "When will we have Quantum Computing for general purpose compute?" → predicted `question` (0.85)
+- "OpenQASM vs Qiskit vs Cirq — which is better for learning?" → predicted `question` (0.73)
+- "IBM Quantum unreliable" → predicted `question` (0.75)
+
+The model keyed on interrogative phrasing and ignored the speculative/opinionated body. All five posts contain phrases like "when will", "which is better", or "what do you think" — surface patterns the model associates with `question`.
+
+**Pattern 2 — link presence, opinionated body (4 cases)**
+
+Posts that include an external link but whose main value is the poster's take, not the link:
+
+- "Critique of Microsoft" (links arxiv paper, body says "Thoughts?") → predicted `news` (0.66)
+- "You're Already Using Post-Quantum Ready Sites..." (argumentative body) → predicted `news` (0.74)
+- "Shor's algorithm implementation on IBM quantum computer" → predicted `news` (0.75)
+
+The model learned that link presence is a strong `news` signal. When a discussion post includes a link, the model overrides the body content.
+
+**Root cause:** `discussion` is the only class defined by author *intent* rather than structural features. `news` has links. `question` has interrogatives. `discussion` has neither a consistent surface marker. The model needs enough examples where the structural cues are ambiguous to learn the intent signal — and 197 training examples was not enough for that boundary.
 
 ---
 
@@ -229,6 +292,20 @@ The model learned the broad taxonomy, but it still struggles with intent when th
 **One way the spec helped:** The hard edge case rule in `planning.md` became the most important part of the project. It gave me a clear way to fix labels after the first model runs showed noisy errors.
 
 **One way implementation diverged from the spec:** The original plan expected around 200 manually collected examples. The final version used a larger scraped dataset, then narrowed it down to 583 cleaner rows. That changed the project from simple data collection into data curation.
+
+---
+
+## Deployed Interface
+
+A Gradio interface is available in `app.py`. It accepts a post, runs the fine-tuned model, and displays the predicted label and per-class confidence scores.
+
+**Setup:**
+
+1. Download the fine-tuned model from Colab (Files panel → right-click `takemeter-model/checkpoint-104` → Download as zip) and place it in `./model/`
+2. Install dependencies: `pip install gradio transformers torch`
+3. Run: `python app.py`
+
+The interface launches at `http://localhost:7860`.
 
 ---
 

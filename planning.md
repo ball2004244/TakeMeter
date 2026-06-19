@@ -76,9 +76,9 @@ This post shares a real announcement but then builds a bold claim from it. The n
 
 **Additional difficult cases encountered during annotation:**
 
-* ""
-* ""
-* ""
+* **"Reconcile These Two Quantum Facts And Tell Me Why NIST Still Have 2035 for PQC Dates"** — grammatically a question, but the body presents a rhetorical challenge with a built-in claim about NIST being wrong. No single person can answer it with a source; it needs community debate. → labeled `discussion`.
+* **"What is the value in simulators that scale beyond 50 qubits?"** — looks like a `question` from the title, but the body contains a structured argument about classical simulation limits that the poster wants challenged. The title is bait; the intent is debate. → labeled `discussion`.
+* **"IBM Venture Head Says Company Puts Quantum on Equal Footing With AI"** — shares a real quote, which reads as `news`, but the poster clearly wants the community to weigh in on whether IBM's framing is honest. Applying the link-removal rule: would the post still have something to say without the quote? Yes — the poster's skepticism is the point. → labeled `discussion`.
 
 ---
 
