@@ -1,0 +1,253 @@
+text,label,notes
+Won't Moore's Law force us into quantum mechanism/computers some point soon?,question,question about whether classical scaling limits will push industry to quantum
+Q-Day Risks,discussion,
+Google claims 'quantum advantage' again but researchers remain sceptical | Nature News,news,Nature News coverage of Google quantum advantage claim with researcher skepticism
+"IBM & Cisco announce funding, demo w/ Fermi in 3 years",news,IBM and Cisco joint quantum computing funding and roadmap announcement
+Where are we actually in quantum computing?,discussion,
+Reconcile These Two Quantum Facts And Tell Me Why NIST Still Have 2035 for PQC Dates,discussion,provocative discussion about inconsistency between qubit roadmaps and NIST's 2035 PQC deadline
+Would you use a Reddit-like platform made only for Quantum Computing and Quantum Information?,discussion,
+"What is the value in simulators that scale beyond 50 qubits?
+
+Classic emulation is limited by RAM requirements due to the exponential state space explosion beyond 30 qubits. If someone found a way to effectively simulate quantum Turing complete circuits at 60, 75, 100 or more qubits classically, does the simulator become a different form of compute?",discussion,discussion on implications of classical simulators scaling beyond the 50-qubit barrier
+Microsoft's Majorana 2 Topological Quantum Computer,discussion,edge case — shares news but body likely builds a claim
+Using quantum computers to simulate molecules,question,
+Post Quantum Cryptographic communication tools simulation?,question,
+2025 Quantum Open Source Software Survey,news,announcement of the 2025 quantum open-source software community survey
+What if there's an objective information-theoretic ceiling,discussion,
+For those who have done Quantum Programming what was your experience?,question,
+Quantum Error Correction with Toric Code at Atom Computing,news,
+Anyone else going to the IBM Quantum Developer Conference,discussion,community check-in about attendance at IBM Quantum Developer Conference
+Trapped Ion Computer Construction Feasibility,question,question about the practical engineering feasibility of building trapped ion computers
+How is the current state of the field?,discussion,general check-in discussion on current state of quantum computing progress
+"Quantum education tool, replica qubit",news,self-post sharing a physical replica qubit educational tool
+Why do we see more advancements in Quantum hardware than software,discussion,discussion on asymmetry between hardware progress and software/algorithm development
+Truly exciting progress for Quantum Computing by IBM,discussion,edge case — shares news but expresses enthusiasm as a claim
+Are there existing benchmarks for PC GES NOTEARS LiNGAM on quantum environments?,question,
+Is anyone working on QRAM?,question,
+Quantum resistant timelines meaning for the industry,discussion,
+Questions about superconducting quantum modality IBM,question,
+Stabilizer Circuits on Qiskit,question,
+Efficient implementation of arbitrary two-qubit gates using unified control,news,Nature paper on efficient two-qubit gate implementation with unified control pulses
+When I attended the Quantum Conference in Florida last month a few presenters stood out.,discussion,
+D-Wave's claim that its quantum computers can solve problems that would take hundreds of years has been undermined by two separate research groups showing even an ordinary laptop can do similar calculations,news,edge case — shares news but has implicit debate framing
+Doubt regarding the relative phase of the qubit,question,
+On classical algorithms running on quantum computing both simulation and real hardware,discussion,
+Counterarguments for saying QC is useless and there is nothing it can be used for,discussion,video/discussion presenting counterarguments to QC skepticism and 'uselessness' claims
+Does quantum computing actually have a future?,discussion,
+Designing a qubit controller in Verilog getting it fabricated on SKY130 next month,news,
+QAOA for Max 3-SAT,discussion,
+Impossible Physics is Implicit in Quantum Value Prop...Isn't it?,discussion,provocative discussion claiming QC value propositions depend on impossible physics assumptions
+Complete beginner here -- anyone want to team up and learn Quantum Computing together?,question,
+Largest IBM Quantum Computer Right Now,question,
+Device with 6100 qubits is a step towards largest quantum computer yet,news,
+The Pinnacle Architecture: Reducing the cost of breaking RSA-2048 to 100 000 physical qubits using quantum LDPC codes,news,new preprint on dramatically reducing physical qubit requirements for RSA-2048 breaking
+Exponential quantum advantage in massive classical data: Is the QML bottleneck finally solved?,discussion,edge case — reports paper result but framed as open debate
+What are the best foundational articles and papers on the implications of quantum computing?,question,
+Trump administration planning expansion of U.S. quantum strategy,news,
+Getting into quantum computing,question,
+You're Already Using Post-Quantum Ready Sites and Services and You Probably Don't Know It,discussion,
+Q4Bio Phase 3 results? Also curious what people think about my modality thesis,discussion,edge case -- shares Q4Bio benchmark results then builds a modality claim; uses news as springboard
+What does qiskit mean?,question,
+IBM has unveiled two unprecedentedly complex quantum computers,news,
+Is cryogenic control (CryoCMOS or SFQ) really the main bottleneck for scaling superconducting qubits?,question,technical question about whether cryo control electronics are the main scaling bottleneck
+Can someone explain Quantum Volume?,question,
+The first quantum computer to break encryption is now shockingly close,news,
+Rigetti Computing Launches 36-Qubit Multi-Chip Quantum Computer,news,
+Why haven't quantum computers factored 21 yet?,question,
+128-qubit chip,question,question about a specific 128-qubit chip and its significance
+Can't we take advantage of the fact that the permutation cosets appear in both cases where the hidden subgroup is either A3 or the transpositions?,question,
+A digitally controlled silicon quantum processing unit,news,
+Photon Splitting in BB84,question,technical question about photon number splitting attacks on BB84 quantum key distribution
+What impact does quantum computing have on the coding world?,discussion,
+A fluorescent-protein spin qubit,news,Nature paper on using fluorescent proteins as spin qubits -- novel qubit modality
+Whatever happened with Microsofts Majorana chip?,question,
+Qubit x Qubit opinions so far,discussion,community discussion about the Qubit x Qubit educational program
+China's SpinQ Targets 500-Qubit Milestone as Quantum Computing Nears Real-World Utility,news,
+Looking for working code for HHL in Qiskit,question,
+Unitary Transformation of Coupled Spin-1/2 Systems: A Matrix Approach to Clebsch-Gordan Coefficients,discussion,
+I Made a Bloch Sphere Quantum Visualizer,news,
+Will quantum computing break the internet?,question,question about quantum threat to internet infrastructure and cryptographic protocols
+Hadamard Gates Physical Implementation,question,question about how Hadamard gates are physically realized in hardware
+Application of QC in Cybersecurity - other than Shor's algorithm,question,asking about quantum computing applications in security beyond Shor's factoring algorithm
+Latest Epstein files include Seth Lloyd Mikhail Lukin Scott Aaronson,news,
+Went to RSAC2026 expecting AI hype. Left actually scared about Q-Day for the first time.,discussion,edge case — shares experience then builds claim about Q-Day urgency
+AskScience AMA Series: We are quantum scientists at the University of Maryland. Ask us anything!,discussion,AMA with quantum computing researchers at UMD covering a range of QC topics
+2026 State of the Global Quantum Industry report released by Quantum Economic Development Consortium,news,
+Revisiting Bernstein-Vazirani: Another way to look at 'Quantum Parallelism' (New pedagogical paper on arXiv),news,new pedagogical arXiv paper revisiting the Bernstein-Vazirani algorithm
+Point me to a QML application,question,asking for concrete real-world quantum machine learning applications
+Is quantum computing still decades away?,discussion,
+The Birth of Quantum Computing with Nobel Prize Winner 2025 John Martinis,news,
+Is Quantum AI the next real boom after GenAI or still a research hype?,discussion,
+Any recommendations for beginner projects?,question,beginner asking for hands-on quantum computing project ideas
+The Science of Nobel Physics Prize 2025,news,explainer on the 2025 Nobel Physics Prize in quantum computing/information
+PsiQuantum and their tech,discussion,
+Demonstration of measurement-free universal logical quantum computation - Nature Communications,news,
+Why don't we just perform another transform in the Fourier basis after QFT?,question,
+Honest summary of where quantum ML stands in 2026 -- am I missing anything?,discussion,
+I can't get this IBM venn diagram out of my head,discussion,discussion sparked by IBM marketing diagram about quantum vs classical computing domains
+Neutral Atom Gate Fidelity record is at 99.86% now,news,
+I don't get generalized amplitude damping,question,
+Computer scientists: what is your honest opinion on quantum computing today?,discussion,
+Microsoft is introducing the Majorana 2 chip,news,
+Anyone ever use Qiskit? Worth learning?,question,
+I'm working on a language to correctly uncompute ancilla and certify algorithms as coherent,discussion,self-post sharing work on a quantum programming language for ancilla uncomputation verification
+Does the general public actually know the actual benefits of learning quantum computing?,discussion,
+Google publishes paper on resource estimates for breaking elliptic curve cryptography and impact on cryptocurrency,news,
+Does quantum computing actually change what's possible or just how efficiently we can solve certain problems?,discussion,
+"What is qubit state, really?",question,philosophical/conceptual question about the nature of qubit state
+IBM Quantum Learning Platform as material source,question,asking whether IBM Quantum Learning Platform is reliable as a study resource
+Anyone want to learn quantum computing and physics together?,question,
+Infleqtion Delivers the UK's Only Operational 100 Qubit Quantum Computing System,news,Infleqtion news about UK's first 100-qubit operational quantum system
+Is the QFT physically realizable for modest qubits?,question,question about practical feasibility of implementing QFT on current NISQ hardware
+How to experimentally verify 15.6 ps TDC resolution + integrated CCU on Xilinx Zynq-7000?,question,technical question about time-to-digital converter verification for quantum control systems
+"Quantum Computers can never out perform GPUs in CFD
+
+From my reading, GPUs can solve the Poisson problem in O(N) time. With the Omega(N) measurement barrier, quantum computers could never outperform that. Even though HHL is on the scale of polylog(n), it still can't get past the Omega(N) barrier.",discussion,technical discussion arguing QC cannot beat GPUs for CFD due to measurement lower bounds
+Charles Bennett and Gilles Brassard Receive 2025 ACM A.M. Turing Award,news,
+"Is a quantum computer as a home PC possible?
+
+Is it by the laws of physics possible to have a PC sized home computer using quantum mechanics? What breakthroughs in engineering and technology are required to make this a reality? Is a room temperature superconductor needed?",question,question about feasibility of home/consumer quantum computing hardware
+HSBC Quantum paper with IBM,news,
+The classical simulation wall isn't at 50 qubits it's at entanglement depth. A 1000-qubit circuit can be easier to simulate than a 20-qubit one.,discussion,
+Rust crates now supports Quantum Computing as a category,news,
+I am creating a complete unofficial solutions manual to Nielsen and Chuang Quantum Computation and Quantum Information,news,
+Simulation of Jiuzhang 2.0 quantum advantage experiments using 2 GB of RAM,news,paper showing classical simulation of Jiuzhang 2.0 photonic quantum advantage experiments
+Nvidia's AI toolkit release has nothing to do with Quantum AI. But it's still important.,discussion,edge case — uses news as springboard for own claim
+"What is the SOTA Quantum Simulator?
+
+Looking for information on the current state-of-the-art quantum simulator in terms of performance, qubit count, and fidelity.",question,question about best-in-class quantum simulators for research and development
+China's Quantum Computers 2026,news,substack article reviewing China's quantum computing progress in 2026
+Did Giancarlo Lelli Just Bluff His Way Through The QDay Prize?,discussion,
+Decade-long project to make quantum computers accessible through visual programming,news,
+Princeton team has built a superconducting qubit that lasts three times longer than today's best versions,news,
+Google's Quantum Echoes claims verifiable advantage on chemistry tasks,news,
+"What is everyone's opinion on DARPA's new program called HARQ?
+
+Essentially they created this program after QBI where they are now saying that they don't think any single qubit architecture will get us to quantum advantage. They double down by saying even if some companies hit their 'goals' that it'll be equivalent to less than 1k logical qubits so we won't be able to do anything that useful anyways.",discussion,discussion of DARPA's HARQ heterogeneous quantum computing program and its implications
+What do you think of this announcement from QuEra? Fault-tolerance in 2028 is a bold claim.,discussion,
+Question about modeling entanglement as a constrained joint state rather than two systems,question,
+In 2026 Quantum Computers Will Reach a New Level -- IEEE Spectrum,news,
+"Use case scenario
+
+I have been fascinated by the potential use case scenarios made possible by entanglement recently. I think for me the thing I'm most excited about would be the development of a new type of networking. Imagine a protocol that enables real time communication between two servers regardless of distance.",discussion,poster excited about quantum networking; discussion reveals common entanglement misconceptions
+How does using qubits instead of bits change the computing power?,question,fundamental question about computational difference between classical bits and qubits
+US DOE's metrics for FTQC,news,
+What is Quantum Advantage Really?,question,
+The cryptography side of quantum computing is probably the most near-term consequential application and it gets less attention than it should,discussion,
+Trying to understand the value of cryoCMOS over room temperature control,question,
+Fireside Chat with Steven Girvin,news,announcement of fireside chat event with quantum physicist Steven Girvin
+Quantum computing for computational chemistry,discussion,
+Where do you follow quantum computing news? Blog and article sites?,question,
+What are the QC companies which are very clearly fraudulent not doing any actual research and running on pure hype?,discussion,
+Google expands research to neutral atom quantum computing,news,
+I wrote a book Quantum Computing for Software Engineers it's free,news,
+Wrote about Quantum for my Optimistic Tech Newsletter,discussion,sharing a newsletter piece on quantum computing with community for feedback
+Superconducting Quantum computing to Spin Qubits,discussion,discussion comparing superconducting and spin qubit modalities and potential transitions
+Graph isomorphism problem setting up state to put into QFT matrix,question,
+Collaborative Quantum Learning Hub: Contributors Welcome!,discussion,call for contributors to a collaborative quantum computing learning resource
+Is quantum machine learning really useful?,discussion,
+"Please explain like I'm five, how quantum chips do that?",question,ELI5 question about quantum chip operation and computation mechanisms
+High-Accuracy Temporal Prediction via Experimental Quantum Reservoir Computing in Correlated Spins,news,
+Oxford Ionics an IonQ company has achieved 99.99% two-qubit gate fidelity world record,news,
+My Quantum RNG - easy projects that sound cool,discussion,sharing a quantum random number generator as an accessible beginner QC project
+How important is gate speed?,question,technical question about importance of gate speed vs other metrics in quantum hardware
+A new ion-based quantum computer makes error correction simpler,news,
+Question about this quantum computer my university acquired,question,
+Scientists Propose Quantum Network to Finally Detect Universe's Mysterious Missing Substance,news,
+What quantum-related software projects are there to contribute to?,question,
+Electron on helium qubits -- what are they and why do they matter?,question,
+Benchmarking literature for QAOA vs classical solvers,question,asking for references comparing QAOA performance against classical optimization algorithms
+Microsoft advances quantum error correction with a family of novel four-dimensional codes,news,
+VHDL Control Infrastructure for HTS Cryogenic Modules: Achieving microKelvin Stability and <4h MTTR,news,technical self-post on VHDL control system for high-temperature superconductor cryogenic modules
+"Harvest Now, Decrypt Later
+
+Federal Reserve paper titled 'Harvest Now, Decrypt Later' points out a very important timeline problem that most organizations are overlooking. Adversaries may have already used their capacity to collect encrypted information today, with the expectation that a quantum computer will break the existing encryption within 5-10 years.",discussion,discussion of HNDL threat model and urgency of PQC migration
+Must I understand quantum mechanics to program quantum computers?,question,
+On the dishonesty of the Quantum Industry,discussion,
+CERN introductory open course lectures for quantum computing,news,
+Is CJ2 n + m one of the best methods for QUBO encoding?,question,
+What exactly are these quantum chip fabs that the US government just announced they're investing billions of dollars into companies to produce?,question,
+IonQ Claims to have Achieved Significant Quantum Internet Milestone Demonstrates Quantum Frequency Conversion to Telecom Wavelengths,news,
+Australian Scientists Achieve Breakthrough in Scalable Quantum Control with CMOS-Spin Qubit Chip,news,
+Scientists trained an AI model using an IBM quantum computer and it answered questions correctly that the base model couldn't,news,
+IBM unveils two new quantum processors including one that offers a blueprint for fault-tolerant quantum computing by 2029,news,
+Do we know how quantum error shows itself when we work on huge numbers? Is quantum error probabilistic or deterministic?,question,
+I built my own quantum programming language called QSM. Here's a 3-qubit QFT running on it.,news,
+IBM Venture Head Says Company Puts Quantum on Equal Footing With AI,discussion,edge case — shares quote but frames as claim about IBM's direction
+Quantum Computer Rental Performance Comparison,discussion,comparison of cloud quantum computer rental options on performance metrics
+Quantinuum Claims Key Step Towards Scaling Up Quantum Computers. New advance demonstrates fault-tolerant gates.,news,IEEE Spectrum coverage of Quantinuum fault-tolerant gate demonstration
+"Are businesses actually preparing for quantum-era cybersecurity risks, or still ignoring it?",discussion,question about enterprise readiness for post-quantum cryptography migration
+China just built the world's first electrically tunable quantum transistor controlling quantum interference at the single-atom level,news,
+AMA with Scott Aaronson,news,
+A Quantum Components Industry Is Emerging,news,
+Quantum and Identity,news,article about quantum computing implications for identity verification and authentication
+Quantum Computing Explained: The Technology That Could Break the Internet and Transform Science Forever,discussion,infographic/explainer post with wide-ranging QC claims that drew community discussion
+What research are you guys doing atm in QC?,discussion,community check-in on current quantum computing research directions
+Quantum computing in 10 years,discussion,
+Quantum Technology Blog/Article Sites,question,asking for recommended quantum computing news blogs and article sources (different post from row 72)
+How many known problems exist where there is a quantum algorithm that would clearly work?,question,
+What is the long-term potential of Qiskit for the quantum computing industry?,question,question about Qiskit's future role and longevity as a quantum SDK
+"Looking for collaborators on a quantum simulator in Rust.
+
+Working on a quantum simulator in Rust specifically based on photonics (for now), looking for collaborators to implement the photonics backend and also contribute in general.",discussion,open-source collaboration request for Rust-based photonic quantum simulator
+What's the biggest gap between what quantum can do today and what you actually need?,discussion,
+"quantum Hilbert space made interactive, the almost complete bible of universal quantum computing is ready to leave Early Access",news,announcement of interactive quantum education software nearing full release
+World-Building Question Of Application For Quantum Computers. (ELI5),question,ELI5/worldbuilding question about realistic quantum computing applications for fiction purposes
+Quantum Computing Workshop Suggestions,question,
+Maybell has launched a new cryogenic architecture that cuts power requirements for sub-Kelvin cryogenics by 90%.,news,Maybell Quantum news about dramatic power reduction in cryo systems
+What do you think actually counts as a quantum measurement?,discussion,edge case — grammatically a question but no settled answer
+Need some quantum machine providers,question,question asking for cloud quantum computing providers and hardware access
+so I want to go into quantum computing?,question,question about career path and steps for entering the quantum computing field
+Looking for Inspiration,question,student asking for inspiring quantum computing projects or research directions
+Made this video on important examples of quantum channels,news,YouTube educational video on quantum channels with concrete examples
+Is the quantum advantage metric derailing our progress in quantum computing?,discussion,
+I found fabricated results in a 1k-citation Nature quantum machine learning paper,discussion,
+How can quantum memory store information if quantum states are disrupted by measurement?,question,conceptual question about quantum memory and the measurement problem
+How to intuitively explain how a qubit actually computes?,question,
+Harvest now decrypt later...Fed warning,news,Federal Reserve warning document about harvest-now-decrypt-later quantum threat
+Do you think quantum Ghost Murmur exists?,discussion,
+Upcoming Fireside Chat with Peter Shor,news,
+Quantum Computing vs Crypto: How Real Is the Threat?,discussion,edge case — news headline framed as debate
+Channels similar to Two Minute Papers but for quantum tech?,question,asking for YouTube channels covering quantum research accessibly
+qblaze - a SOTA quantum simulator based on sparse data structures,news,announcement of qblaze quantum simulator using sparse data structures for efficiency
+Infleqtion achieved 99.93% nondestructive Qubit readout Today Neutral Atom,news,
+The vast world of quantum advantage,discussion,arXiv paper discussion covering the breadth of known quantum advantage results
+Quantum Computing for ordinary people?,question,
+UMass Amherst Research Demonstrates New Technology for Shrinking Quantum Computers,news,
+Cross-Platform Performance and Security Evaluation of Post-Quantum Cryptographic Algorithms on Resource-Constrained Devices,news,MDPI paper evaluating PQC algorithm performance on IoT/embedded devices
+Interviewed with IBM Quantum USA,discussion,self-post sharing interview experience at IBM Quantum
+Quantum Software,discussion,discussion about the state and future of quantum software development
+Quantum device design workshop at UCLA,news,announcement of quantum device design workshop at UCLA
+NVIDIA Launches Ising: World's First Open-Source AI Models for Quantum Computing,news,
+With only 2 days to go for Nobel announcement do you think the field is not a hype anymore?,discussion,
+When will SC qubits start to die off?,discussion,
+"Exploring observability options for quantum SDK workflows runs (Qiskit, Cirq, etc.)",discussion,discussion about monitoring and observability tooling for quantum SDK workflows
+What is a Qubit?,question,
+What's the potential wildest craziest application of quantum computing,discussion,
+I need help with my research paper methodology!,question,student asking for help with quantum computing research paper methodology
+An LLM just accepted my paper. I think.,discussion,
+UnitaryHACK26 - Open Source QC Hackathon,news,
+QT of non abelian groups,question,
+"I threw a qubit on a DTC -- accepted at IEEE QCNC 2026, rejected by arXiv lol",discussion,humorous post about a paper accepted at IEEE QCNC but rejected by arXiv moderation
+Zapata Quantum rises from the grave of Zapata Computing,news,news about Zapata Computing rebranding as Zapata Quantum
+"Exotic 'time crystals' could be used as memory in quantum computers, promising research finds",news,livescience coverage of time crystals as potential quantum memory
+"German government becomes just the latest government to recommend earlier PQC dates than US government
+
+The German gov't just recommended PQC be implemented by 2030/2031, as compared to the current US recommendation of 2035. This is after last week, when the Indian government recommended 2027. It's showing a trend of govts around the world moving up their PQC dates.",discussion,discussion on accelerating international PQC migration timelines vs US 2035 recommendation
+Falcon implementation,question,question about implementing the Falcon post-quantum signature scheme
+Question: what happens when you apply a Hadamard gate to a qubit that's in arbitrary superposition?,question,
+What are quantum computers made of?,question,
+Quantinuum Helios is a new 98-qubit commercial quantum computer described as the world's most accurate,news,
+A question about Topological Quantum Computing: Is my intuitive visualization of Anyon Braiding and Error Correction mathematically sound?,question,
+Lasers for quantum computing,question,question about the role of lasers in quantum computing hardware systems
+Scientists discover quantum particles remember past states,news,
+Is PsiQuantum a reliable company?,discussion,
+Crossing the 12000-atom barrier with heterogeneous quantum-classical supercomputing,news,
+Public engagement resources for Quantum Computing,question,request for resources to explain quantum computing to non-technical audiences
+Is post-quantum crypto in Web3 real preparation or just long-term narrative building?,discussion,
+Japan just launched its own quantum computer on the internet,news,
+IBM Quantum Platform,question,question about accessing and using the IBM Quantum Platform for experiments
+(stupid) question about FTL,question,beginner question about whether quantum entanglement enables faster-than-light communication
+QC will not be able to do the stuff in the series Devs right?,question,
+Two years on: revisiting our paper on adversarial robustness in hybrid classical-quantum models,news,
+Why is there so little discussion of photonic quantum computing CV or DV?,discussion,
